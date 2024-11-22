@@ -1,0 +1,2 @@
+I am Deepanshu Yadav . In this GSOC Project Submission Task, I have made a DUMB CHARADES GAME (Movie Guessing Game). I got the inspiration to make this game from an Assignment we got a few weeks back in which we had to make a Dumb Charades Game in JavaScript which ran in the terminal.
+In this Assignment for some part of the CSS file I used ChatGpt. I hope you like it as this is my First Project and my First push on GitHub.
