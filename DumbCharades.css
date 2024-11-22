@@ -1,0 +1,108 @@
+body {
+    font-family: 'Courier New', sans-serif;
+    background: radial-gradient(circle, #1a1a1a, #2c2c2c); 
+    color: #f0f0f0; 
+    text-align: center;
+    padding: 20px;
+    animation: fadeIn 3s ease-in; 
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+h1 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+#intro {
+    margin-bottom: 30px;
+}
+
+#start {
+    padding: 10px 20px;
+    font-size: 18px;
+    background: radial-gradient( #4a90e2, #9013fe); 
+    color: white;
+    transition: background 0.3s, transform 0.2s; 
+}
+
+#start:hover {
+    background: radial-gradient( #9013fe, #4a90e2);
+    transform: scale(1.05); 
+}
+
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border: 2px solid #f0f0f0; 
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3)); 
+    color: #f0f0f0; 
+
+}
+
+input[type="text"]:focus {
+    border: 2px solid #4a90e2; 
+    outline: none; 
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: linear-gradient(90deg, #e74c3c, #c0392b); 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s; 
+
+}
+
+button:hover {
+    background: linear-gradient(90deg, #c0392b, #e74c3c);
+    transform: scale(1.05); 
+}
+
+
+#hint {
+    font-weight: bold;
+    color: #f39c12; 
+    font-size: 18px;
+}
+
+#msg {
+    
+    font-weight: bold;
+    color: #e67e22; 
+}
+
+#resBtn {
+    
+    background: linear-gradient(90deg, #e67e22, #d35400); 
+}
+
+#resBtn:hover {
+    background: linear-gradient(90deg, #d35400, #e67e22);
+}
+
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

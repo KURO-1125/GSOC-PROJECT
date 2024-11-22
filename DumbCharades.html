@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DUMB CHARADES GAME</title>
+    <link rel="stylesheet" href="./DumbCharades.css">
+</head>
+<body>
+    <h1>WELCOME TO THE DUMB CHARADES GAME</h1>
+    <br>
+    <div id="intro">
+        <p>CLICK TO START GAME</p>
+        <br>
+        <button id="start">START GAME</button>
+    </div>
+
+    
+    <div id="space" style="display:none;">
+        <p>ENTER YOUR NAME:</p>
+        <input type="text" id="name" placeholder="Enter Your Name">
+        <button id="enter">Enter</button>
+        <div id="game" style="display:none;">
+            <p>HINT: <span id="hint"></span></p>
+            <input type="text" id="guess" placeholder="Enter Guess">
+            <button id="guessBtn">Submit Guess</button>
+            <p><span id="msg"></span></p>
+            <button id="resBtn" style="display: none;">Restart Game</button>
+        </div>
+    </div>
+
+    <script src="./DumbCharades.js"></script>
+</body>
+</html>
